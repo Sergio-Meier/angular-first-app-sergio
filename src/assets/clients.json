@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "emailAddress": "donald.duck@ducktales.com",
+    "firstName": "Donald", 
+    "lastName": "Duck", 
+    "address": "Entenhausenstrasse 1", 
+    "postalCode": "9999", 
+    "city": "Enternhausen", 
+    "country": "Entenland", 
+    "isTest": true,
+    "favoriteColor": "blue",
+    "dateOfBirth": "01.01.1980", 
+    "registeredOn": "26.01.2020 20:18:33", 
+    "favoriteNumber": 13,
+    "password": "test",
+    "gender": "male", 
+    "mainPhone": "012 345 67 89", 
+    "getUpTime": "08:00:00", 
+    "url": "www.donald-duck.com"
+  },
+  {
+    "id": 2,
+    "emailAddress": "mickey.mouse@ducktales.com",
+    "firstName": "Mickey", 
+    "lastName": "Mouse", 
+    "address": "Entenhausenstrasse 2", 
+    "postalCode": "9999", 
+    "city": "Enternhausen", 
+    "country": "Entenland", 
+    "isTest": true,
+    "favoriteColor": "red",
+    "dateOfBirth": "01.01.1979", 
+    "registeredOn": "26.01.2020 20:23:18", 
+    "favoriteNumber": 17,
+    "password": "test",
+    "gender": "male", 
+    "mainPhone": "012 456 78 90", 
+    "getUpTime": "07:30:00", 
+    "url": "www.mickey-mouse.com"
+  }
+]

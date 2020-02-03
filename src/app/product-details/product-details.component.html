@@ -1,0 +1,55 @@
+<h2>Product Details</h2>
+
+<div *ngIf="product">
+  <h3>{{ product.name }}</h3>
+  <div class="column">
+    <div class="row">
+      Brand:
+    </div>
+    <div class="row">
+      Type:
+    </div>
+    <div class="row">
+      Size:
+    </div>
+    <div class="row">
+      Year:
+    </div>
+    <div class="row">
+      Color:
+    </div>
+    <div class="row">
+      Description:
+    </div>
+    <div class="row">
+      Price:
+    </div>
+  </div>
+  <div class="column">
+    <div class="row">
+      {{ product.brand }}
+    </div>
+    <div class="row">
+      {{ product.type }}
+    </div>
+    <div class="row">
+      {{ product.size }}
+    </div>
+    <div class="row">
+      {{ product.year }}
+    </div>
+    <div class="row">
+      {{ product.color }}
+    </div>
+    <div class="row">
+      {{ product.description }}
+    </div>
+    <div class="row">
+      {{ product.price | currency }}
+    </div>
+  </div>
+
+  <div class="row">
+      <button (click)="addToCart(product)">Add to cart</button>
+  </div>
+</div>

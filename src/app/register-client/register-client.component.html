@@ -1,0 +1,123 @@
+<h3>Registration</h3>
+
+<form [formGroup]="registerForm" (ngSubmit)="onSubmit(registerForm.value)">
+
+  <div>
+    <input id="id" type="hidden" formControlName="id">
+  </div>
+
+  <div>
+    <label for="emailAddress">
+      Email
+    </label>
+    <input id="emailAddress" type="email" formControlName="emailAddress">
+  </div>
+
+  <div>
+    <label for="firstName">
+      Firstname
+    </label>
+    <input id="firstName" type="text" formControlName="firstName">
+  </div>
+
+  <div>
+    <label for="lastName">
+      Lastname
+    </label>
+    <input id="lastName" type="text" formControlName="lastName">
+  </div>
+
+  <div>
+    <label for="address">
+      Address
+    </label>
+    <input id="address" type="text" formControlName="address">
+  </div>
+
+  <div>
+    <label for="postalCode">
+      Postal Code
+    </label>
+    <input id="postalCode" type="number" formControlName="postalCode">
+  </div>
+
+  <div>
+    <label for="city">
+      City
+    </label>
+    <input id="city" type="text" formControlName="city">
+  </div>
+
+  <div>
+    <label for="country">
+      Country
+    </label>
+    <input id="country" type="text" formControlName="country">
+  </div>
+
+  <div>
+    <label for="isTest">
+      Is Test
+    </label>
+    <input id="isTest" type="checkbox" formControlName="isTest">
+  </div>
+
+  <div>
+    <label for="favoriteColor">
+      Favorite Color
+    </label>
+    <input id="favoriteColor" type="color" formControlName="favoriteColor">
+  </div>
+
+  <div>
+    <label for="dateOfBirth">
+      Date of Birth
+    </label>
+    <input id="dateOfBirth" type="date" formControlName="dateOfBirth">
+  </div>
+
+  <div>
+    <label for="registeredOn">
+      Registered on
+    </label>
+    <input id="registeredOn" type="datetime" formControlName="registeredOn">
+  </div>
+
+  <div>
+    <label for="favoriteNumber">
+      Favorite Number
+    </label>
+    <input id="favoriteNumber" type="number" formControlName="favoriteNumber">
+  </div>
+
+  <div>
+    <label for="password">
+      Password
+    </label>
+    <input id="password" type="password" formControlName="password">
+  </div>
+
+  <div>
+    <label for="mainPhone">
+      Main Phone
+    </label>
+    <input id="mainPhone" type="tel" formControlName="mainPhone">
+  </div>
+
+  <div>
+    <label for="getUpTime">
+      Getup Time
+    </label>
+    <input id="getUpTime" type="time" formControlName="getUpTime">
+  </div>
+
+  <div>
+    <label for="url">
+      URL
+    </label>
+    <input id="url" type="url" formControlName="url">
+  </div>
+
+  <button class="button" type="submit">Register</button>
+
+</form>
