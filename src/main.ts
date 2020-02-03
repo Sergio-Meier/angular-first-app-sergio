@@ -1,3 +1,20 @@
+function log(message) {
+  console.log(message);
+}
+
+function doSomething() {
+  for (var i = 0; i < 5; i++) {
+    log(i);
+  }
+
+  log('Finally: ' + i);
+}
+
+var message = 'Hey there, how are you doing?';
+
+log(message);
+
+/*
 import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { environment } from './environments/environment';
@@ -9,7 +26,7 @@ if (environment.production) {
 }
 
 platformBrowserDynamic().bootstrapModule(AppModule);
-
+*/
 
 /*
 Copyright Google LLC. All Rights Reserved.
