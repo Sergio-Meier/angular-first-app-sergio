@@ -16,6 +16,7 @@ import { ShippingInfoComponent } from './shipping-info/shipping-info.component';
 import { RegisterClientComponent } from './register-client/register-client.component';
 import { LoginComponent } from './login/login.component';
 import { DataService } from './data.service';
+import { TestingGeneralComponent } from './testing-general/testing-general.component';
 
 @NgModule({
   imports: [
@@ -42,7 +43,8 @@ import { DataService } from './data.service';
     ShippingComponent,
     ShippingInfoComponent,
     RegisterClientComponent,
-    LoginComponent
+    LoginComponent,
+    TestingGeneralComponent
   ],
   bootstrap: [ AppComponent ],
   providers: [CartService, DataService]
